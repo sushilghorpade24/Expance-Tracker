@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanse Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Expense Tracker</legend>
+        <div>
+            <h1>Expence Tracker</h1>
+            <label for="">Item Name:</label>
+            <input type="text" id="item_name" />
+            <label for="">Item Amount</label>
+            <input type="text" id="item_amount" />
+            <br />
+            <br />
+            <button class="btn1" onclick="toStoreDataToLocalStorage()">Add Item</button>
+            <button class="btn2" onclick="toClearAll()">Clear All</button>
+            <div id="para"></div>
+            <h3>Total Amount: <span id="total_amount"></span></h3>
+        </div>
+    </fieldset>
+</body>
+
+</html>
